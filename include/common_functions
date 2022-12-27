@@ -110,6 +110,11 @@ setup_unikraft()
     #git cherry-pick fix_lxstat_warning
     #git cherry-pick skuenzer/checkpatchconfig~2..skuenzer/checkpatchconfig
     #git cherry-pick posix-socket-fix-warnings
+
+    git remote add syslinuxbootloader https://github.com/ls-1801/unikraft.git
+    git fetch syslinuxbootloader
+    git checkout -b syslinuxbootloader syslinuxbootloader/staging
+
 }
 
 setup_musl()
