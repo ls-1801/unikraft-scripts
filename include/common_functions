@@ -114,6 +114,7 @@ setup_unikraft()
     git remote add syslinuxbootloader https://github.com/ls-1801/unikraft.git
     git fetch syslinuxbootloader
     git cherry-pick 4857d4700c5e8a747e931145cf7e369d5e55465f
+    git cherry-pick 39f31c895d4a0f606b5a34393d83ecc840ec4131
 
 }
 
